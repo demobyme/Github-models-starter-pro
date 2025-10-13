@@ -1,6 +1,6 @@
 # GitHub Models Starter Pro
 
-This repository provides a comprehensive starter kit for leveraging GitHub's GPT-4o AI models with Node.js. Designed for developers, students, and educators, it showcases practical examples for building intelligent chatbots, handling multi-turn conversations, streaming AI responses, processing images, and integrating advanced reasoning capabilities. With step-by-step setup instructions and real-world coding tasks, this project helps you quickly integrate state-of-the-art AI into your applications. Ideal for those seeking to learn, experiment, or build production-ready solutions using GitHub's AI inference API and the latest GPT-4o technology.
+This repository provides a comprehensive starter kit for leveraging GitHub's GPT-4o and GPT-5 AI models with Node.js. Designed for developers, students, and educators, it showcases practical examples for building intelligent chatbots, handling multi-turn conversations, streaming AI responses, processing images, and integrating advanced reasoning capabilities. With step-by-step setup instructions and real-world coding tasks, this project helps you quickly integrate state-of-the-art AI into your applications. Ideal for those seeking to learn, experiment, or build production-ready solutions using GitHub's AI inference API and the latest GPT-4o and GPT-5 technologies.
 
 [![Follow me on GitHub](https://img.shields.io/github/followers/nisalgunawardhana?label=Follow%20me%20on%20GitHub&style=social)](https://github.com/nisalgunawardhana)
 
@@ -11,6 +11,8 @@ This repository provides a comprehensive starter kit for leveraging GitHub's GPT
 - **Image Input Handling**
 - **Function/Tool Calling**
 - **Reasoning Models** (Complex problem solving and logical reasoning)
+- **Interactive Creative Writing** (GPT-5 powered storytelling)
+- **Automated Code Review** (GPT-5 powered code analysis)
 
 ## Prerequisites
 
@@ -25,7 +27,7 @@ This repository provides a comprehensive starter kit for leveraging GitHub's GPT
 2. Clone your forked repository and create a new branch named `submission`:
 ```bash
 git clone https://github.com/your-username/Github-models-starter-pro.git
-cd github-models-chatbot-starter
+cd Github-models-starter-pro
 git checkout -b submission
 ```
 
@@ -88,6 +90,33 @@ This example demonstrates:
 - Logic puzzles
 - Complex problem solving
 - Ethical reasoning scenarios
+
+### Interactive Creative Writing (GPT-5)
+Run the `sample-creative-writing.js` file to experience advanced storytelling with GPT-5:
+```bash
+node sample-creative-writing.js
+```
+
+This example demonstrates:
+- Interactive story generation with user choices
+- Multi-genre support (Sci-Fi, Fantasy, Mystery, etc.)
+- Dynamic narrative branching based on decisions
+- Character consistency across story segments
+- Creative prompt engineering for storytelling
+
+### Automated Code Review (GPT-5)
+Run the `sample-code-review.js` file for comprehensive code analysis with GPT-5:
+```bash
+node sample-code-review.js
+```
+
+This example demonstrates:
+- Multi-language code analysis (JavaScript, Python, Java, C++, etc.)
+- Security vulnerability assessment
+- Performance optimization suggestions
+- Code quality scoring and improvement recommendations
+- Automated code refactoring with explanations
+- Professional documentation generation
 
 ---
 ## Assessment Task: Multi-turn Coding Assistant Chatbot
@@ -155,7 +184,7 @@ Once you have finished implementing your multi-turn coding assistant chatbot in 
      git commit -m "Complete assessment"
      git push origin submission
      ```
-   - Create a pull request from your `submission` branch to the `submission-reviewer` branch on the main repository.
+   - Create a pull request from your `submission` branch to the `main` branch on the Your repository.
 
    ![How to Make a PR - Step 1](./Images/pr-image1.png)
    ![How to Make a PR - Step 2](./Images/pr-image2.png)
@@ -164,12 +193,14 @@ Once you have finished implementing your multi-turn coding assistant chatbot in 
 
    **Tip:** After creating your pull request, copy the PR link from your browser's address bar. You will need this link when creating your submission issue in the next step.
 
+   ![How to Make a PR - Step 3](./Images/pr-image3.png)
+
 7. **Create an Issue**
-   - Go to the main repository and create an issue using the `submission` template.
-   - Fill in the following details:
-     - Full Name
-     - University
-     - Pull Request Link
+  - Go to the [main repository](https://github.com/nisalgunawardhana/Github-models-starter-pro) and create an issue using the `submission` template.
+  - Fill in the following details:
+    - Full Name
+    - University
+    - Pull Request Link
 
 8. **Review and Certification**
    - Once your submission is reviewed and approved, you will receive a badge and certificate.
@@ -193,8 +224,9 @@ To use these demos, you need a GitHub personal access token with the `models:rea
 5. Click **"Generate token"** and copy the token (you won't be able to see it again)
 
 ### Video Walkthrough
+[![How to Get a GitHub Token – Video Screenshot](./Images/video.png)](https://drive.google.com/file/d/15yXeESfRivaoXj1350rcwQbAzLaQJfMK/view?usp=sharing)
 
-[![How to Get a GitHub Token](./Images/demo_token_video.mp4)](./Images/demo_token_video.mp4)
+> [Click here to watch the video walkthrough on Google Drive.](https://drive.google.com/file/d/15yXeESfRivaoXj1350rcwQbAzLaQJfMK/view?usp=sharing)
 
 Watch this short video for a step-by-step guide on generating your GitHub personal access token.
 
